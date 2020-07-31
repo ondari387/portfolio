@@ -407,8 +407,8 @@
                     </div>
                     <div class="col-lg-4 col-md-6 col-sm-12 py-3">
                         <i class="fa fa-phone fa-1x text-muted mr-3"></i>
-                        <h4>Mail Me</h4>
-                        <p>ondari.mike@gmail.com</p>
+                        <a href="#" class="btn btn-primary">Hire Me Now</a>
+
                     </div>
                 </div>
                 <hr>
