@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.category-btns {
+    border: 1px solid #e9ecef;
+    border-radius: 10px;
+}
+
+.category-btns .btn {
+    border-radius: 20px;
+}
+
+.related-article {
+    border: 1px solid #e9ecef;
+    border-radius: 15px;
+}
