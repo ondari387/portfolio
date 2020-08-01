@@ -412,7 +412,7 @@
                     </div>
                 </div>
                 <hr>
-                <div class="footer-contact">
+                <div class="footer-contact text-center">
                     <div class="footer-social-icons">
                         <i class="fa fa-twitter mr-2"></i>
                         <i class="fa fa-facebook mr-2"></i>

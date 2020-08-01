@@ -227,16 +227,13 @@ ul li {
 }
 
 .footer {
-    background: #F7F7F7;
+    background: #333333;
+    color: white;
     margin-top: 70px;
     columns: #212121;
 }
 
-.footer-contact {
-    display: flex;
-    justify-content: space-between;
-
-}
+.footer-contact {}
 
 .footer-contact:hover {
     cursor: pointer;
