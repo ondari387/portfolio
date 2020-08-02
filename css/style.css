@@ -1,9 +1,11 @@
+font-family: 'Crimson Text',
+serif;
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-
 
 .navbar.navbar-inverse {
     border: none;
@@ -22,12 +24,12 @@
     border: none !important;
 }
 
-.fa-twitter {
-    display: none;
+.fa {
+    transition: transform 0.5s;
 }
 
-.fa-twitter:hover {
-    display: block;
+.fa:hover {
+    transform: rotate(180deg);
 }
 
 .navbar-light .navbar-brand {
@@ -288,6 +290,35 @@ ul li {
 
 .footer hr {
     border-bottom: 2px solid #606B71;
+}
+
+/***hover on services****/
+.skill-box {
+    position: relative;
+}
+
+.service-text {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #007bff;
+    color: #fff;
+    visibility: hidden;
+    opacity: 0;
+    border-radius: 15px;
+
+    /* transition effect. not necessary */
+    transition: opacity .5s, visibility .2s;
+}
+
+.skill-box:hover .service-text {
+    visibility: visible;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 1;
 }
 
 /*********media queries********/

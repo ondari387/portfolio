@@ -13,7 +13,7 @@
     <!--font awesome-->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
     <!--Google fonts-->
-    <link href="https://fonts.googleapis.com/css2?family=Itim&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;1,600&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -35,7 +35,7 @@
                         <h3 class="py-3 text-primary">Software Developer / Graphics Designer</h3>
                         <p>
                             A talented Software Developer and active Graphics Designer in this
-                            field for 4 years now. I have a lot of taste when it comes to
+                            field for 3 years now. I have a lot of taste when it comes to
                             UI/UX
                         </p>
                         <div class="row">
@@ -54,15 +54,15 @@
                         </div>
 
                         <div class="home-social-icons mb-2">
-                            <i class="fa fa-twitter mr-2"><a href="http://">Twitter</a></i>
-                            <i class="fa fa-facebook mr-2"></i>
-                            <i class="fa fa-linkedin mr-2"></i>
+                            <i class="fa fa-twitter mr-2"><a href="https://twitter.com/ondari_michael"></a></i>
+                            <i class="fa fa-facebook mr-2"><a href="https://www.facebook.com/michael.ondari.961"></a></i>
+                            <i class="fa fa-linkedin mr-2"><a href="linkedin.com/in/michael-ondari-4924b9171"></a></i>
                             <i class="fa fa-instagram mr-2"></i>
                         </div>
                     </div>
 
                     <div class="col-md-6" style="padding: 40px;">
-                        <img src="img/omp2.png" class="w-100" alt="" />
+                        <img src="img/mike.jpg" class="w-100" alt="" />
                     </div>
                 </div>
             </div>
@@ -107,9 +107,10 @@
 
                         <h5 class="pt-4 text-dark">You can also follow me here:</h5>
                         <div class="social-media-icons py-2">
-                            <i class="fa fa-twitter mr-3"></i>
-                            <i class="fa fa-facebook mr-3"></i>
-                            <i class="fa fa-pinterest mr-3"></i>
+                            <<i class="fa fa-twitter mr-2"><a href="https://twitter.com/ondari_michael"></a></i>
+                                <i class="fa fa-facebook mr-2"><a href="https://www.facebook.com/michael.ondari.961"></a></i>
+                                <i class="fa fa-linkedin mr-2"><a href="linkedin.com/in/michael-ondari-4924b9171"></a></i>
+                                <i class="fa fa-instagram mr-2"></i>
                         </div>
 
                     </div>
@@ -130,24 +131,30 @@
                             <div class="col-lg-5 mr-3 d-flex flex-column col-md-6 col-sm-12 skill-box">
                                 <i class="fa fa-paint-brush pb-2"></i>
                                 <h5>UI/UX Designer</h5>
+                                <p class="service-text">We use Modern UI/UX technologies to develop your websites and systems</p>
                             </div>
-                            <div class="col-lg-5 mr-3 d-flex flex-column col-md-6 col-sm-12 text-center skill-box">
+                            <div class="col-lg-5 mr-3 d-flex flex-column col-md-6 col-sm-12 skill-box">
                                 <i class="fa fa-paint-brush pb-2h"></i>
                                 <h5>Graphic Designer</h5>
+                                <p class="service-text">We will design all your graphical things. We have some of the best Graphical Designers</p>
                             </div>
                             <div class="col-lg-5 mr-3 d-flex flex-column col-md-6 col-sm-12 skill-box">
                                 <i class="fa fa-paint-brush pb-2"></i>
                                 <h5>Web Designer</h5>
+                                <p class="service-text"> Let us build your online presence to increase your client base </p>
                             </div>
-                            <div class="col-lg-5 mr-3  d-flex flex-column col-md-6 col-sm-12 text-center skill-box">
+                            <div class="col-lg-5 mr-3  d-flex flex-column col-md-6 col-sm-12 skill-box">
                                 <i class="fa fa-paint-brush pb-2"></i>
                                 <h5>Digital Marketing</h5>
+                                <p class="service-text p-2">Need to market your products and services? Don't hesitate to reach us</p>
+
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
+
         <section class="projects m-auto" id="projects">
             <div class="container">
                 <div class="row">
@@ -231,7 +238,7 @@
                         <p>Incredible Projects</p>
                     </div>
                     <div class="col-lg-4 col-sm-4 mb-3 font-weight-bold">
-                        <h3>4 years</h3>
+                        <h3>3 years</h3>
                         <p>Experience</p>
                     </div>
                 </div>
@@ -304,10 +311,10 @@
                         </div>
                         <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 d-flex align-items-baseline">
                             <div class="home-social-icons">
-                                <i class="fa fa-twitter mr-3"></i>
-                                <i class="fa fa-facebook mr-3"></i>
-                                <i class="fa fa-linkedin mr-3"></i>
-                                <i class="fa fa-instagram mr-3"></i>
+                                <i class="fa fa-twitter mr-4"><a href="https://twitter.com/ondari_michael"></a></i>
+                                <i class="fa fa-facebook mr-4"><a href="https://www.facebook.com/michael.ondari.961"></a></i>
+                                <i class="fa fa-linkedin mr-4"><a href="linkedin.com/in/michael-ondari-4924b9171"></a></i>
+                                <i class="fa fa-instagram mr-4"></i>
                             </div>
                         </div>
                     </div>
@@ -421,12 +428,12 @@
                     <div class="col-lg-4 col-md-6 col-sm-12 pt-3">
                         <h5>Follow us</h5>
                         <ul>
-                            <li><a href="#">Twitter</a></li>
-                            <li><a href="#">Facebook</a></li>
-                            <li><a href="#">Instagram</a></li>
-                            <li><a href="#">LinkedIn</a></li>
+                            <i class="fa fa-twitter mr-4"><a href="https://twitter.com/ondari_michael"></a></i>
+                            <i class="fa fa-facebook mr-4"><a href="https://www.facebook.com/michael.ondari.961"></a></i>
+                            <i class="fa fa-linkedin mr-4"><a href="linkedin.com/in/michael-ondari-4924b9171"></a></i>
+                            <i class="fa fa-instagram mr-4"></i>
                         </ul>
-                        <h5 class="">Subscribe to our blogs</h5>
+                        <h5 class="pt-4">Subscribe to our blogs</h5>
                         <form action="includes/subscriber.php" method="POST">
                             <div class="form-group">
                                 <div class="input-group mb-2 mr-sm-2">
