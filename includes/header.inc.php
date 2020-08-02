@@ -1,6 +1,6 @@
 <nav class=" navbar navbar-expand-lg navbar-light">
     <div class="container">
-        <a class="navbar-brand js-scroll-trigger" href="#">ONDARIDESIGNS</a>
+        <a class="navbar-brand js-scroll-trigger" href="index.php">ONDARIDESIGNS<img src="img/logo1.pg" class="img-responsive" alt=""></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown">
             <span class="navbar-toggler-icon"></span>
         </button>

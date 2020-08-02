@@ -41,20 +41,20 @@
                         <div class="row">
                             <div class="col-md-6">
                                 <label>Email</label>
-                                <p>ondari.mike@gmail.com</p>
+                                <p><a href="mailto:ondari.mike@gmail.com">ondari.mike@gmail.com</a></p>
                             </div>
                             <div class="col-md-6">
                                 <label>Mobile</label>
-                                <p>(+254) 748-637-080</p>
+                                <p><a href="tel:+254748637080">(+254) 748-637-080</a></p>
                             </div>
                         </div>
                         <div class="cta-btns pt-3 pb-4 text-white">
                             <a href="#" class="btn btn-primary mr-3">Download CV</a>
-                            <a href="#" class="btn btn-outline-primary">Hire Me Now</a>
+                            <a href="mailto:ondari.mike@gmail.com" class="btn btn-outline-primary">Hire Me Now</a>
                         </div>
 
                         <div class="home-social-icons mb-2">
-                            <i class="fa fa-twitter mr-2"></i>
+                            <i class="fa fa-twitter mr-2"><a href="http://">Twitter</a></i>
                             <i class="fa fa-facebook mr-2"></i>
                             <i class="fa fa-linkedin mr-2"></i>
                             <i class="fa fa-instagram mr-2"></i>
@@ -62,7 +62,7 @@
                     </div>
 
                     <div class="col-md-6" style="padding: 40px;">
-                        <img src="img/mike.jg" class="w-100" alt="" />
+                        <img src="img/omp2.png" class="w-100" alt="" />
                     </div>
                 </div>
             </div>
@@ -71,7 +71,7 @@
         <section class="services m-auto" id="services">
             <div class="container">
                 <div class="row text-center">
-                    <div class="col-lg-4  col-md-6 col-sm-12">
+                    <div class="col-lg-4 col-md-6 col-sm-12">
                         <div class="service-box mb-4">
                             <h5>UI/UX Designer</h5>
                             <p>Awesome UI/UX Experience</p>
@@ -97,7 +97,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-6 col-md-6 col-sm-12">
-
+                        <img src="img/comp2.png" class="w-100" alt="" />
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-12">
                         <h2 style="line-height: 40px;letter-spacing:3px;" class="pb-3 title">Need creative design? <br> Don't hestitate to reach me</h2>
@@ -163,12 +163,12 @@
                 </div>
 
                 <div class="project-btn">
-                    <button type="button" class="btn btn-primary active" id="btn1" data-attribute="*">All</button>
-                    <button type="button" class="btn btn-primary" data-attribute="business">Business cards</button>
-                    <button type="button" class="btn btn-primary" data-attribute="logo">Logo</button>
-                    <button type="button" class="btn btn-primary" data-attribute="bronchure">Bronchures</button>
-                    <button type="button" class="btn btn-primary" data-attribute="websites">Websites</button>
-                    <button type="button" class="btn btn-primary" data-attribute="systems">Systems</button>
+                    <button type="button" class="btn active" id="btn1" data-attribute="*">All</button>
+                    <button type="button" class="btn " data-attribute="business">Business cards</button>
+                    <button type="button" class="btn " data-attribute="logo">Logo</button>
+                    <button type="button" class="btn " data-attribute="bronchure">Bronchures</button>
+                    <button type="button" class="btn " data-attribute="websites">Websites</button>
+                    <button type="button" class="btn " data-attribute="systems">Systems</button>
                 </div>
                 <div class="row ">
                     <div class="col-lg-4 col-md-6 col-sm-12 business">
@@ -299,7 +299,7 @@
                         </div>
                         <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 d-flex align-items-baseline">
                             <div class="form-group">
-                                <i class="fa fa-envelope fa-1x text-muted mr-3"></i><a class="$" href="mailto:ondari.mike@gmail.com">ondari.mike@gmail.com</a>
+                                <i class="fa fa-envelope fa-1x text-muted mr-3"></i><a class="" href="mailto:ondari.mike@gmail.com">ondari.mike@gmail.com</a>
                             </div>
                         </div>
                         <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 d-flex align-items-baseline">
@@ -313,7 +313,7 @@
                     </div>
                     <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12 mb30">
                         <div class="contact-form">
-                            <form action="" method="POST">
+                            <form action="includes/contact.php" method="POST">
                                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 mt30">
                                     <h3 class="pt-4 pb-1">Message me</h3>
                                     <hr class="my-3" />
@@ -333,12 +333,12 @@
                                 <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
                                     <div class="form-group">
                                         <label>Message</label>
-                                        <textarea class="form-control" name="message" rows="4" placeholder="Write Your Requirements"></textarea>
+                                        <textarea class="form-control" name="messages" rows="4" placeholder="Write Your Requirements"></textarea>
                                     </div>
                                 </div>
                                 <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
-                                    <a type="submit" name="contact_message" class="btn btn-primary text-white">send
-                                        message</a>
+                                    <button type="submit" name="contact_message" class="btn btn-primary text-white">send
+                                        message</button>
                                 </div>
                             </form>
                         </div>
@@ -391,39 +391,74 @@
                 </div>
             </div>
         </section>
-        <section class="footer text-center">
+        <section class="footer">
             <div class="container">
-                <h2 class="title1 pb-3" style="padding-top: 50px;">Let's Talk</h2>
+                <h2 class="title1 pb-3 text-center" style="padding-top: 50px;">Let's Talk</h2>
                 <div class="row py-4">
                     <div class="col-lg-4 col-md-6 col-sm-12 py-3">
-                        <i class="fa fa-phone fa-1x text-muted mr-3"></i>
-                        <h4>Phone Me</h4>
-                        <p>(+254)748-637-080</p>
+                        <h5>Quick Links</h5>
+                        <ul>
+                            <li>
+                                <a class=" js-scroll-trigger" href="index.php">Home </a>
+                            </li>
+                            <li>
+                                <a class=" js-scroll-trigger" href="#services">Services</a>
+                            </li>
+                            <li>
+                                <a class=" js-scroll-trigger" href="#projects">Projects</a>
+                            </li>
+                            <li>
+                                <a class=" js-scroll-trigger" href="blog.php">Blogs</a>
+                            </li>
+                            <li>
+                                <a class=" js-scroll-trigger" href="#contact">Contact us</a>
+                            </li>
+                            <li>
+                                <a class="js-scroll-trigger" href="#testimonials">Testimonials</a>
+                            </li>
+                        </ul>
                     </div>
                     <div class="col-lg-4 col-md-6 col-sm-12 pt-3">
-                        <i class="fa fa-envelope fa-1x text-muted mr-3"></i>
-                        <h4>Mail Me</h4>
-                        <p>ondari.mike@gmail.com</p>
+                        <h5>Follow us</h5>
+                        <ul>
+                            <li><a href="#">Twitter</a></li>
+                            <li><a href="#">Facebook</a></li>
+                            <li><a href="#">Instagram</a></li>
+                            <li><a href="#">LinkedIn</a></li>
+                        </ul>
+                        <h5 class="">Subscribe to our blogs</h5>
+                        <form action="includes/subscriber.php" method="POST">
+                            <div class="form-group">
+                                <div class="input-group mb-2 mr-sm-2">
+                                    <div class="input-group-prepend">
+                                        <div class="input-group-text"><i class="fa fa-envelope"></i></div>
+                                    </div>
+                                    <input type="email" name="email" class="form-control" id="" placeholder="Your Email">
+                                    <div class="input-group-append">
+                                        <button type="submit" name="subscribers" class="btn btn-primary text-white font-weight-bold">Subscribe</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
                     </div>
                     <div class="col-lg-4 col-md-6 col-sm-12 py-3">
-                        <i class="fa fa-phone fa-1x text-muted mr-3"></i>
-                        <a href="#" class="btn btn-primary">Hire Me Now</a>
+                        <div class="subscribe">
+                            <h5 class="mt-4 text-center">Download our proposal</h5>
+                            <form action="includes/subscriber.php" method="POST">
+                                <div class="form-group">
+                                    <input type="email" name="email" class="form-control my-4" id="" placeholder="Your Email">
+                                    <button type="submit" name="proposal" class="btn btn-primary btn-block text-white font-weight-bold">Get Our Proposal</button>
+                                </div>
+                            </form>
+                        </div>
 
                     </div>
                 </div>
                 <hr>
                 <div class="footer-contact text-center">
-                    <div class="footer-social-icons">
-                        <i class="fa fa-twitter mr-2"></i>
-                        <i class="fa fa-facebook mr-2"></i>
-                        <i class="fa fa-linkedin mr-2"></i>
-                        <i class="fa fa-instagram mr-2"></i>
-                    </div>
-                    <div class="copyright">
-                        <p class="text-muted pb-4">copyright &copy;2020 Ondaridesigns</p>
-                    </div>
+                    <p class="pb-3">copyright &copy;2020 Ondaridesigns</p>
+
                 </div>
-            </div>
         </section>
     </div>
 </body>
